@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name/>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[/*var gr = new GlideRecord('x_g_ni4_interdivis_cutoff_date'); 
+ gr.orderByDesc('cutoff_date');
+    gr.setLimit(1);
+    gr.query();
+if (gr.next()){
+	cutoffDay =  gr.cutoff_date;
+
+}
+//var nowD = new GlideDateTime().getDisplayValue();	
+var nowD = new GlideDateTime()
+//var nD =nowD.dateNumericValue();
+gs.info('cutoff day: ' + cutoffDay);
+ gs.info('now day: ' + nowD);     
+if( nowD>cutoffDay){
+	gs.info('yes');
+	
+}
+else
+	gs.info('no');
+
+*/
+var gr = new GlideRecord("sys_attachment")
+gr.addQuery('file_name', 'NIST-461.pdf');
+gr.query();
+if(gr.next()){
+	sys_id=gr.sys_id;
+	gs.info('Jingping: ' + sys_id);
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-03 16:51:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>698bbd2a1b0620d0f5659605bc4bcb08</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_script_fix_698bbd2a1b0620d0f5659605bc4bcb08</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-03-18 13:04:43</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

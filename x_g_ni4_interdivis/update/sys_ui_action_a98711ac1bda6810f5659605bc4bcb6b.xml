@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.order_status=='Approved'||current.order_status=='Processed'</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Print Form</name>
+        <onclick>fillForm()</onclick>
+        <order>100</order>
+        <script><![CDATA[function fillForm() {
+
+	var reversal_y;
+	var reversal_n;
+	var estimate;
+	if (current.u_reversal) {
+		reversal_y = 'Yes';
+		reversal_n = 'No';
+	} else {
+		reversal_y = 'No';
+		reversal_n = 'Yes';
+	}
+	if (current.or_estimate_requested) {
+		estimate = 'Yes';
+	} else {
+		estimate = 'No';
+	}
+    
+	var orig_461_no = current.u_original_no.getDisplayValue();
+	var fcfy_d = current.fcfy_d.getDisplayValue();
+	var fcfy_c = current.fcfy_c.getDisplayValue();
+    var object_class_d = current.object_class_d.getDisplayValue();
+	var object_class_c = current.object_class_c.getDisplayValue();
+	var ptc_d = current.project_task_d.getDisplayValue();
+	var ptc_c = current.project_task_c.getDisplayValue();
+	var req_no_d = current.requisition_number_d.getDisplayValue();
+	var req_no_c = current.requisition_number_c.getDisplayValue();
+	var poc_d = current.point_of_contact_d.getDisplayValue();
+	var poc_c = current.point_of_contact_c.getDisplayValue();
+	var ext_d = current.phone_ext_d.getDisplayValue();
+	var ext_c = current.phone_ext_c.getDisplayValue();	
+	var org_d = current.project_task_d.u_p_org1_code.getDisplayValue() + '-' + current.project_task_d.u_p_org2_code.getDisplayValue() + '-' + current.project_task_d.u_p_org3_code.getDisplayValue();
+	if (current.project_task_d.u_p_org4_code < 10) {
+		org_d = org_d + '-0' + current.project_task_d.u_p_org4_code.getDisplayValue();
+	} else {
+		org_d = org_d + '-' + current.project_task_d.u_p_org4_code.getDisplayValue();
+	}
+	if (current.project_task_d.u_p_org5_code < 10) {
+		org_d = org_d + '-0' + current.project_task_d.u_p_org5_code.getDisplayValue();
+	} else {
+		org_d = org_d + '-' + current.project_task_d.u_p_org5_code.getDisplayValue();
+	}
+	if (current.project_task_d.u_p_org6_code < 10) {
+		org_d = org_d + '-0' + current.project_task_d.u_p_org6_code.getDisplayValue();
+	} else {
+		org_d = org_d + '-' + current.project_task_d.u_p_org6_code.getDisplayValue();
+	}
+	if (current.project_task_d.u_p_org7_code < 10) {
+		org_d = org_d + '-0' + current.project_task_d.u_p_org7_code.getDisplayValue();
+	} else {
+		org_d = org_d + '-' + current.project_task_d.u_p_org7_code.getDisplayValue();
+	}
+	var org_c = current.project_task_c.u_p_org1_code.getDisplayValue() + '-' + current.project_task_c.u_p_org2_code.getDisplayValue() + '-' + current.project_task_c.u_p_org3_code.getDisplayValue();
+	if (current.project_task_c.u_p_org4_code < 10) {
+		org_c = org_c + '-0' + current.project_task_c.u_p_org4_code.getDisplayValue();
+	} else {
+		org_c = org_c + '-' + current.project_task_c.u_p_org4_code.getDisplayValue();
+	}
+	if (current.project_task_c.u_p_org5_code < 10) {
+		org_c = org_c + '-0' + current.project_task_c.u_p_org5_code.getDisplayValue();
+	} else {
+		org_c = org_c + '-' + current.project_task_c.u_p_org5_code.getDisplayValue();
+	}
+	if (current.project_task_c.u_p_org6_code < 10) {
+		org_c = org_c + '-0' + current.project_task_c.u_p_org6_code.getDisplayValue();
+	} else {
+		org_c = org_c + '-' + current.project_task_c.u_p_org6_code.getDisplayValue();
+	}
+	if (current.project_task_c.u_p_org7_code < 10) {
+		org_c = org_c + '-0' + current.project_task_c.u_p_org7_code.getDisplayValue();
+	} else {
+		org_c = org_c + '-' + current.project_task_c.u_p_org7_code.getDisplayValue();
+	}
+	var amount = current.authorized_amount.getDisplayValue();
+	var wo_number = current.work_order_number.getDisplayValue();
+	var date_needed = current.date_needed.getDisplayValue();
+	var toName = current.to.getDisplayValue();
+	var specifications = current.specification.getDisplayValue();
+	var debit_ao = current.debit_ao_approver.getDisplayValue();
+	var debit_ao_dt = current.debit_ao_approved_date.getDisplayValue();
+    var credit_ao = current.credit_ao_approver.getDisplayValue();
+	var credit_ao_dt = current.credit_ao_approved_date.getDisplayValue();
+    var sma = current.sma_approver.getDisplayValue();
+	var sma_dt = current.sma_approved_date.getDisplayValue();
+    var budget = current.budget_approver.getDisplayValue();
+	var budget_dt = current.budget_approved_date.getDisplayValue();
+	var budget_officer = current.budget_officer_approver.getDisplayValue();
+	var budget_officer_dt = current.budget_officer_approved_date.getDisplayValue();
+    
+    var jsonObject = {
+
+        "yes1": reversal_y,
+		"no1": reversal_n,
+		"estmate_reqstd": estimate,
+		"orig_461_no": orig_461_no,        
+		"fcfy4": fcfy_d,
+        "fcfy19": fcfy_c,
+		"objct_clss7": object_class_d,
+		"objct_clss22": object_class_c,
+		"prjct_tsk5": ptc_d,
+		"prjct_tsk20": ptc_c,
+		"req_no": req_no_d,
+		"req_no23": req_no_c,
+		"poc14": poc_d,
+		"poc24": poc_c,
+		"poc_ext15": ext_d,
+		"poc_ext25": ext_c,
+		"org6": org_d,
+		"org21": org_c,
+		"amnt": amount,
+		"work_order_no": wo_number,
+		"date_need10_af_date": date_needed,
+		"to13": toName,
+		"specifications": specifications,
+		"auth_by_nm22": credit_ao,
+		"date_sign27": credit_ao_dt,
+		"sma_apprv29": sma,
+		"date_sma_apprv_sign30": sma_dt,
+		"auth_by_nm16": debit_ao,
+		"date_sign17": debit_ao_dt,
+		"budget_apprv": budget,
+		"date_budget_apprv_sign32": budget_dt,
+		"budget_officer_apprv": budget_officer,
+		"date_budget_apprv_sign33": budget_officer_dt
+    };
+
+    // Spin up GeneralPdfUtils
+    var pdf = new global.GeneralPdfUtils();
+    // SysID of the saved, blank PDF
+   // var attachmentSysId = 'a0074fcc1bcba8107562a7dcac4bcbb8';
+	var attachmentSysId = gs.getProperty('x_g_ni4_interdivis.NIST461');
+    var jsonString = JSON.stringify(jsonObject);
+    // Table name of the record receiving the new PDF attachment
+    var destinationTableName = 'x_g_ni4_interdivis_interdivision_work_order';
+    // SysID of the record receiving the new PDF attachment
+    var destinationTableSysId = current.sys_id;
+    // Name of the newly created attachment
+    // Form field values can be included (i.e., current.name + '.pdf' )
+
+    var pdfName = current.number + ' N461.pdf';
+
+    pdf.prefillPdf(jsonString, destinationTableSysId, attachmentSysId, destinationTableName, pdfName);
+}
+fillForm();
+action.setRedirectURL(current);]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>pazhangy</sys_created_by>
+        <sys_created_on>2021-02-09 19:21:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a98711ac1bda6810f5659605bc4bcb6b</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Print Form</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_ui_action_a98711ac1bda6810f5659605bc4bcb6b</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-03-18 14:09:55</sys_updated_on>
+        <table>x_g_ni4_interdivis_interdivision_work_order</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="DELETE">
+        <name>sysapproval_approver_script_1</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[var tbl = current.getTableName();
+var sysID = current.sys_id;
+var link = createLinkForObject(tbl,sysID);
+template.print(link);
+function createLinkForObject(strTableName, strSysID){
+   return '<a href="' + gs.getProperty('glide.servlet.uri') + gs.generateURL(strTableName, strSysID) + '">LINK TEXT HERE</a>';
+}]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-03-04 17:37:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>426cdffb1b66e4d08418ebddac4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sysapproval_approver_script_1</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_script_email_426cdffb1b66e4d08418ebddac4bcb4d</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-03-04 17:37:55</sys_updated_on>
+    </sys_script_email>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</application>
+        <comments/>
+        <file_path/>
+        <instance_id>5d010e26db5384901198b16a3296195c</instance_id>
+        <instance_name>nistdev</instance_name>
+        <name>sys_script_email_426cdffb1b66e4d08418ebddac4bcb4d</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;&lt;sys_script_email action="INSERT_OR_UPDATE"&gt;&lt;name&gt;sysapproval_approver_script_1&lt;/name&gt;&lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;&lt;script&gt;&lt;![CDATA[var tbl = current.getTableName();
+var sysID = current.sys_id;
+var link = createLinkForObject(tbl,sysID);
+template.print(link);
+function createLinkForObject(strTableName, strSysID){
+   return '&lt;a href="' + gs.getProperty('glide.servlet.uri') + gs.generateURL(strTableName, strSysID) + '"&gt;LINK TEXT HERE&lt;/a&gt;';
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jnz1202&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-04 17:37:55&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;426cdffb1b66e4d08418ebddac4bcb4d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sysapproval_approver_script_1&lt;/sys_name&gt;&lt;sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis"&gt;bd43f2a41bc6ac507562a7dcac4bcb29&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Interdivision Work Order"&gt;bd43f2a41bc6ac507562a7dcac4bcb29&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_email_426cdffb1b66e4d08418ebddac4bcb4d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jnz1202&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-04 17:37:55&lt;/sys_updated_on&gt;&lt;/sys_script_email&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>495023061</payload_hash>
+        <record_name>sysapproval_approver_script_1</record_name>
+        <reverted_from/>
+        <source>3d43f2a41bc6ac507562a7dcac4bcb2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-03-04 17:37:55</sys_created_on>
+        <sys_id>4e6cdffb1b66e4d08418ebddac4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177fe5148770000001</sys_recorded_at>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-03-04 17:37:55</sys_updated_on>
+        <type>Email Script</type>
+        <update_guid>466cdffbfc66e4d03123177d978c974e</update_guid>
+        <update_guid_history>466cdffbfc66e4d03123177d978c974e:495023061</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-03-04 17:43:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_email">sys_script_email</sys_db_object>
+        <sys_id>a95fc9accb284f2f9ed37be29f276499</sys_id>
+        <sys_metadata>426cdffb1b66e4d08418ebddac4bcb4d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sysapproval_approver_script_1</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_scope_delete display_value="">06e6a0ef4d7f477f82b4892e34ae25c9</sys_scope_delete>
+        <sys_update_name>sys_script_email_426cdffb1b66e4d08418ebddac4bcb4d</sys_update_name>
+        <sys_update_version display_value="sys_script_email_426cdffb1b66e4d08418ebddac4bcb4d">4e6cdffb1b66e4d08418ebddac4bcb4e</sys_update_version>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-03-04 17:43:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

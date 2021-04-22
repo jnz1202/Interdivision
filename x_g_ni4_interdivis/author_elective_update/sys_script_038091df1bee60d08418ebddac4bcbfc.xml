@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sysapproval_approver</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sysapproval_approver">source_tableSTARTSWITHx_g_ni4_interdivis_interdivision_work_order^u_short_description=Debit AO Approval^EQ<item endquery="false" field="source_table" goto="false" newquery="false" operator="STARTSWITH" or="false" value="x_g_ni4_interdivis_interdivision_work_order"/>
+            <item endquery="false" field="u_short_description" goto="false" newquery="false" operator="=" or="false" value="Debit AO Approval"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Interdivision Debit AO auto approval</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+     
+	if (current.document_id.sys_created_by==current.document_id.funding_division.primary_contact.user_name){
+		
+		current.state = 'approved';
+		current.comments = 'Auto-approved';
+		
+    } 
+	  
+    
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-03-02 18:10:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>038091df1bee60d08418ebddac4bcbfc</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Interdivision Debit AO auto approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_script_038091df1bee60d08418ebddac4bcbfc</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-03-03 16:32:51</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</application>
+        <comments/>
+        <file_path/>
+        <instance_id>5d010e26db5384901198b16a3296195c</instance_id>
+        <instance_name>nistdev</instance_name>
+        <name>sys_script_038091df1bee60d08418ebddac4bcbfc</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_label/&gt;&lt;action_name/&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_run_at&gt;server&lt;/action_run_at&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;application/&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sysapproval_approver&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sysapproval_approver"&gt;source_tableSTARTSWITHx_g_ni4_interdivis_interdivision_work_order^u_short_description=Debit AO Approval^EQ&lt;item endquery="false" field="source_table" goto="false" newquery="false" operator="STARTSWITH" or="false" value="x_g_ni4_interdivis_interdivision_work_order"/&gt;&lt;item endquery="false" field="u_short_description" goto="false" newquery="false" operator="=" or="false" value="Debit AO Approval"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Interdivision Debit AO auto approval&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;read_access_action&gt;false&lt;/read_access_action&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+     
+	if (current.document_id.sys_created_by==current.document_id.funding_division.primary_contact.user_name){
+		
+		current.state = 'approved';
+		current.comments = 'Auto-approved';
+		
+    } 
+	  
+    
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jnz1202&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-02 18:10:26&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;038091df1bee60d08418ebddac4bcbfc&lt;/sys_id&gt;&lt;sys_mod_count&gt;30&lt;/sys_mod_count&gt;&lt;sys_name&gt;Interdivision Debit AO auto approval&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis"&gt;bd43f2a41bc6ac507562a7dcac4bcb29&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Interdivision Work Order"&gt;bd43f2a41bc6ac507562a7dcac4bcb29&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_038091df1bee60d08418ebddac4bcbfc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jnz1202&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-03 16:32:51&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1990751259</payload_hash>
+        <record_name>Interdivision Debit AO auto approval</record_name>
+        <reverted_from/>
+        <source>3d43f2a41bc6ac507562a7dcac4bcb2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-03-03 16:32:51</sys_created_on>
+        <sys_id>07e38e271b6ee0d08418ebddac4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177f8ef5a020000001</sys_recorded_at>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-03-03 16:32:51</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>4be38e27d16ee0d0b1e426f89784eef1</update_guid>
+        <update_guid_history>4be38e27d16ee0d0b1e426f89784eef1:-1990751259,dfbdfdeb7c2ee0d099efbd7965e47521:-90962136,bc78bd63002ee0d05a3b5bbbda78bfe3:1115888182,9a17f1236d2ee0d0124cce39faf53372:-1447644845,edd4b92ffceae0d0f8ad605c9e685410:-988052559,40e339eb6beae0d0409fb9b1c1074abc:273822712,68a1f52b07eae0d0fef1e1ce00680792:-1353192399,28ff65a7bceae0d07751a93eda772b58:273822712,9caead27b9eae0d05645f2975f72d0f3:581290392,aa4b29637feae0d000f9e18d86608805:778132336,a22a71571a26a0d03d54b35408626aab:-1773312339,34bda553ede2a0d0246783d664470f03:-26668918,3dcc6d9fd6a2a0d0d8c8e81749945904:81844504,713c299f15a2a0d07858fde1fe5c99f6:672322832,8eaa651ff4a2a0d0e7d5e971b9228da0:-1849049643,2af8a5570da2a0d0398d1383af51619f:706118661,42e8615772a2a0d011dd3f360c1a804e:697955365,f358e517e4a2a0d05208fb52d492f7bf:-843042654,86d6a95372a2a0d04bf1bc811538b6b1:1494152194,6d5629534da2a0d073eef630b2d08a7e:-843042654,9736655361a2a0d0843c4383fb429241:-1808341046,7a01a19b2762a0d0dea92cb64fd5f2ba:174810122,4c8e5597b562a0d0c8ce3550953f1d1a:334170105,ff8d9517a362a0d08db8f5582460d3bb:494962495,70ec5d93c862a0d0ae97df5eff418b81:-790404608,fddb115f3522a0d0c2cb3e02466fe9d9:-1532104895,638b1d1f0722a0d01baffd580ac331eb:-1875608185,4bd555570c22a0d09d27fb21a625f29f:-1158096914,3b5295539022a0d0f5cdb1e7809734cf:1137169240,bcd019df6bee60d04d5e439fa33989c4:313409890,fea01d9f21ee60d086d2e3eb77e1498d:73201257</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-03-03 17:58:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>255bbb30fde54d16906367b2814ea9f9</sys_id>
+        <sys_metadata>038091df1bee60d08418ebddac4bcbfc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interdivision Debit AO auto approval</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_parent display_value="Approval">ca98e11ca4130100edbcc98dd9213ea0</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_scope_delete display_value="">06e6a0ef4d7f477f82b4892e34ae25c9</sys_scope_delete>
+        <sys_update_name>sys_script_038091df1bee60d08418ebddac4bcbfc</sys_update_name>
+        <sys_update_version display_value="sys_script_038091df1bee60d08418ebddac4bcbfc">07e38e271b6ee0d08418ebddac4bcbf2</sys_update_version>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-03-03 17:58:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

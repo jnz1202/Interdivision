@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="menu_item">
+    <menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <detail_page/>
+        <iframe/>
+        <image/>
+        <logged_on>false</logged_on>
+        <menu_section display_value="">Business and Financial</menu_section>
+        <name>Nist-461 Request</name>
+        <order>400</order>
+        <roles/>
+        <sys_class_name>menu_item</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-02 16:00:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3066a4961b866c90f5659605bc4bcb96</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Nist-461 Request</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>menu_item_3066a4961b866c90f5659605bc4bcb96</sys_update_name>
+        <sys_updated_by>sbritton</sys_updated_by>
+        <sys_updated_on>2021-02-04 17:19:37</sys_updated_on>
+        <tag/>
+        <target>internal</target>
+        <type>url</type>
+        <url>request_detail.do?sysparm_document_key=sc_cat_item,9d270b391b02e4907562a7dcac4bcbd4</url>
+    </menu_item>
+</record_update>

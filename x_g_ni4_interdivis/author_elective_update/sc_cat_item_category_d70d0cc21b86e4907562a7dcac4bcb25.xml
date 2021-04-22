@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Nist-461 Request">9d270b391b02e4907562a7dcac4bcbd4</sc_cat_item>
+        <sc_category display_value="Human Resources">ba7dc6ea6f6b920078d3aa82be3ee482</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-01 19:32:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d70d0cc21b86e4907562a7dcac4bcb25</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Human Resources.Nist-461 Request</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sc_cat_item_category_d70d0cc21b86e4907562a7dcac4bcb25</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-01 19:45:06</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</application>
+        <comments/>
+        <file_path/>
+        <instance_id>5d010e26db5384901198b16a3296195c</instance_id>
+        <instance_name>nistdev</instance_name>
+        <name>sc_cat_item_category_d70d0cc21b86e4907562a7dcac4bcb25</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Nist-461 Request">9d270b391b02e4907562a7dcac4bcbd4</sc_cat_item><sc_category display_value="Human Resources">ba7dc6ea6f6b920078d3aa82be3ee482</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>jnz1202</sys_created_by><sys_created_on>2021-02-01 19:32:58</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d70d0cc21b86e4907562a7dcac4bcb25</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Human Resources.Nist-461 Request</sys_name><sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope><sys_update_name>sc_cat_item_category_d70d0cc21b86e4907562a7dcac4bcb25</sys_update_name><sys_updated_by>jnz1202</sys_updated_by><sys_updated_on>2021-02-01 19:45:06</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1208718526</payload_hash>
+        <record_name>Human Resources.Nist-461 Request</record_name>
+        <reverted_from/>
+        <source>3d43f2a41bc6ac507562a7dcac4bcb2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-01 19:45:06</sys_created_on>
+        <sys_id>3e3058c61b86e4907562a7dcac4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1775f20950e0000001</sys_recorded_at>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-01 19:45:06</sys_updated_on>
+        <type>Sc cat item category</type>
+        <update_guid>f23058c6d286e4907f458dd14c7dd0c3</update_guid>
+        <update_guid_history>f23058c6d286e4907f458dd14c7dd0c3:1208718526,050e0c068b86e490cc7ed69f2dc7dd17:878190404,c57d48061586e4908fd3202aa5185222:-1093916079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-01 16:15:41">61f460ce1bc6e4907562a7dcac4bcbae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-01 21:15:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>21840b11f2fc4290994dafd280ef7900</sys_id>
+        <sys_metadata>d70d0cc21b86e4907562a7dcac4bcb25</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Human Resources.Nist-461 Request</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_parent display_value="">9d270b391b02e4907562a7dcac4bcbd4</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_scope_delete display_value="">06e6a0ef4d7f477f82b4892e34ae25c9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_d70d0cc21b86e4907562a7dcac4bcb25</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_d70d0cc21b86e4907562a7dcac4bcb25">3e3058c61b86e4907562a7dcac4bcbc3</sys_update_version>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-01 21:15:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

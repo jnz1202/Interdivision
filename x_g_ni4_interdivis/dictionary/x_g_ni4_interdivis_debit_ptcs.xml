@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="Debit PTCs" max_length="40" name="x_g_ni4_interdivis_debit_ptcs" sizeclass="14" type="collection">
+        <element label="Amount" max_length="100" name="amount" type="decimal"/>
+        <element label="Order Number" max_length="32" name="order_number" reference="x_g_ni4_interdivis_interdivision_work_order" type="reference"/>
+        <element label="org code" max_length="100" name="org_code" read_only="true" type="string"/>
+        <element label="Project Task Code" max_length="32" name="u_ptc" reference="u_project_task_code" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sysapproval_approver</collection>
+        <condition table="sysapproval_approver">stateCHANGESTOrejected^source_tableSTARTSWITHx_g_ni4_interdivis_interdivision_work_order^EQ<item display_value="Rejected" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="rejected"/>
+            <item endquery="false" field="source_table" goto="false" newquery="false" operator="STARTSWITH" or="false" value="x_g_ni4_interdivis_interdivision_work_order"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_g_ni4_interdivis.Reject order</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <group/>
+        <group_field/>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <list/>
+        <list_field/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div>
+<div>
+<table style="height: 164px; width: 455px; border-collapse: collapse; float: left;" border="1">
+<tbody>
+<tr style="height: 27px;">
+<td style="width: 117.167px; height: 13px;"><strong><span xml:lang="EN-US" data-contrast="auto">Action Required By</span>&nbsp;</strong></td>
+<td style="width: 330.833px; height: 13px;">${x_g_ni4_interdivis_nist461.requester.name}</td>
+</tr>
+<tr style="height: 70px;">
+<td style="width: 117.167px; text-align: left; vertical-align: top; height: 70px;"><strong><span xml:lang="EN-US" data-contrast="auto">Action Required</span>&nbsp;</strong></td>
+<td style="width: 330.833px; text-align: left; vertical-align: top; height: 70px;">
+<div>
+<p><span xml:lang="EN-US" data-contrast="auto"><span data-ccp-parastyle="Normal (Web)">1.&nbsp;</span></span><span xml:lang="EN-US" data-contrast="auto"><span data-ccp-parastyle="Normal (Web)">Review rejection justification</span></span><span xml:lang="EN-US" data-contrast="auto"><span data-ccp-parastyle="Normal (Web)">&nbsp;(below)</span></span></p>
+<p><span xml:lang="EN-US" data-contrast="auto"><span data-ccp-parastyle="Normal (Web)">2. </span></span><span xml:lang="EN-US" data-contrast="auto"><span data-ccp-parastyle="Normal (Web)">Make necessary changes to the work order&nbsp;</span></span><span xml:lang="EN-US" data-contrast="auto"><span data-ccp-parastyle="Normal (Web)">and&nbsp;</span></span><span xml:lang="EN-US" data-contrast="auto"><span data-ccp-parastyle="Normal (Web)">resubmit or cancel the request. </span></span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559685&quot;:228,&quot;335559739&quot;:160,&quot;335559740&quot;:254,&quot;335559991&quot;:228}"> <br /></span></p>
+</div>
+</td>
+</tr>
+<tr style="height: 27px;">
+<td style="width: 117.167px; height: 27px;"><strong><span xml:lang="EN-US" data-contrast="auto">Interdivision Work Order #</span><span xml:lang="EN-US" data-contrast="auto">&nbsp;Link</span>&nbsp; </strong></td>
+<td style="width: 330.833px; height: 27px;">
+<p>${mail_script:NIST461PortlLinktoTicket}</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 27px;">
+<td style="width: 117.167px; height: 27px;"><strong><span xml:lang="EN-US" data-contrast="auto">Rejection Justification</span>&nbsp; </strong></td>
+<td style="width: 330.833px; height: 27px;">${comments}</td>
+</tr>
+<tr style="height: 27px;">
+<td style="width: 117.167px; height: 27px;"><strong><span xml:lang="EN-US" data-contrast="auto">Rejected By</span>&nbsp; </strong></td>
+<td style="width: 330.833px; height: 27px;">${approver.name}</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Reject Order</name>
+        <omit_watermark>false</omit_watermark>
+        <order/>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>x_g_ni4_interdivis_nist461.requester,x_g_ni4_interdivis_nist461.point_of_contact_d</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>ACTION REQUIRED - Interdivision Work Order Rejected </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-03-03 14:01:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>081129a31baae0d08418ebddac4bcb5e</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Reject Order</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sysevent_email_action_081129a31baae0d08418ebddac4bcb5e</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-04-13 15:00:48</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <user/>
+        <user_field/>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</application>
+        <comments/>
+        <file_path/>
+        <instance_id>5d010e26db5384901198b16a3296195c</instance_id>
+        <instance_name>nistdev</instance_name>
+        <name>sysevent_email_action_081129a31baae0d08418ebddac4bcb5e</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;sysapproval_approver&lt;/collection&gt;&lt;condition table="sysapproval_approver"&gt;stateCHANGESTOrejected^source_tableSTARTSWITHx_g_ni4_interdivis_interdivision_work_order^EQ&lt;item display_value="Rejected" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="rejected"/&gt;&lt;item endquery="false" field="source_table" goto="false" newquery="false" operator="STARTSWITH" or="false" value="x_g_ni4_interdivis_interdivision_work_order"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;br&gt;&lt;hr&gt;&lt;br&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;x_g_ni4_interdivis.Reject order&lt;/event_name&gt;&lt;event_parm_1&gt;true&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;group/&gt;&lt;group_field/&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;list/&gt;&lt;list_field/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;div&gt;
+&lt;div&gt;
+&lt;table style="height: 164px; width: 455px; border-collapse: collapse; float: left;" border="1"&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 27px;"&gt;
+&lt;td style="width: 117.167px; height: 13px;"&gt;&lt;strong&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;Action Required By&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="width: 330.833px; height: 13px;"&gt;${x_g_ni4_interdivis_nist461.requester.name}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 70px;"&gt;
+&lt;td style="width: 117.167px; text-align: left; vertical-align: top; height: 70px;"&gt;&lt;strong&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;Action Required&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="width: 330.833px; text-align: left; vertical-align: top; height: 70px;"&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;&lt;span data-ccp-parastyle="Normal (Web)"&gt;1.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;&lt;span data-ccp-parastyle="Normal (Web)"&gt;Review rejection justification&lt;/span&gt;&lt;/span&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;&lt;span data-ccp-parastyle="Normal (Web)"&gt;&amp;nbsp;(below)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;&lt;span data-ccp-parastyle="Normal (Web)"&gt;2. &lt;/span&gt;&lt;/span&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;&lt;span data-ccp-parastyle="Normal (Web)"&gt;Make necessary changes to the work order&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;&lt;span data-ccp-parastyle="Normal (Web)"&gt;and&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;&lt;span data-ccp-parastyle="Normal (Web)"&gt;resubmit or cancel the request. &lt;/span&gt;&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233117&amp;quot;:true,&amp;quot;134233118&amp;quot;:true,&amp;quot;201341983&amp;quot;:0,&amp;quot;335559685&amp;quot;:228,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:254,&amp;quot;335559991&amp;quot;:228}"&gt; &lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 27px;"&gt;
+&lt;td style="width: 117.167px; height: 27px;"&gt;&lt;strong&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;Interdivision Work Order #&lt;/span&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;&amp;nbsp;Link&lt;/span&gt;&amp;nbsp; &lt;/strong&gt;&lt;/td&gt;
+&lt;td style="width: 330.833px; height: 27px;"&gt;
+&lt;p&gt;${mail_script:NIST461PortlLinktoTicket}&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 27px;"&gt;
+&lt;td style="width: 117.167px; height: 27px;"&gt;&lt;strong&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;Rejection Justification&lt;/span&gt;&amp;nbsp; &lt;/strong&gt;&lt;/td&gt;
+&lt;td style="width: 330.833px; height: 27px;"&gt;${comments}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 27px;"&gt;
+&lt;td style="width: 117.167px; height: 27px;"&gt;&lt;strong&gt;&lt;span xml:lang="EN-US" data-contrast="auto"&gt;Rejected By&lt;/span&gt;&amp;nbsp; &lt;/strong&gt;&lt;/td&gt;
+&lt;td style="width: 330.833px; height: 27px;"&gt;${approver.name}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Reject Order&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order/&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;x_g_ni4_interdivis_nist461.requester,x_g_ni4_interdivis_nist461.point_of_contact_d&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;ACTION REQUIRED - Interdivision Work Order Rejected &lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jnz1202&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-03 14:01:44&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;081129a31baae0d08418ebddac4bcb5e&lt;/sys_id&gt;&lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;&lt;sys_name&gt;Reject Order&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis"&gt;bd43f2a41bc6ac507562a7dcac4bcb29&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Interdivision Work Order"&gt;bd43f2a41bc6ac507562a7dcac4bcb29&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_081129a31baae0d08418ebddac4bcb5e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jnz1202&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-13 15:00:48&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;user/&gt;&lt;user_field/&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1474916943</payload_hash>
+        <record_name>Reject Order</record_name>
+        <reverted_from/>
+        <source>3d43f2a41bc6ac507562a7dcac4bcb2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-04-13 15:00:48</sys_created_on>
+        <sys_id>2608f03c1b23ac507562a7dcac4bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178cbbfcfae0000001</sys_recorded_at>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-04-13 15:00:48</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>ea08f03c8d23ac50279254819eb7c011</update_guid>
+        <update_guid_history>ea08f03c8d23ac50279254819eb7c011:-1474916943,609f6c34d923ac50994718a1fb195347:1550667946,335f6834e523ac5075f582f0ce278531:-921642385,8de92cbc92ef6c50d5002e3569cce698:1550667946,8cd42838c4ef6c504fdcbd9715891f02:-2050884029,99ac73ac80eb6c50516460b2aca6a8fb:-1789508561,281bb7ac5aeb6c506a34739f1335d2f4:-670011594,ef6864e0936fe85031efaf58e20bab6b:-1789508561,cf67e4604f6fe8509445dd15f495a6c2:1802302870,7226e4208e6fe850ce4cee49b38d4883:-1336857406,1c8524ec822fe8501f938b18a6f85e66:415090184,20c464ec972fe850aa23489b3f2dc7ea:1795097988,4824a4ac092fe8505b0febc1d5d4a3be:1064374997,529228e8822fe8504b542fe58dfc738b:158570096,958f50284e2fe850d36c9981f83f3e51:1415718417,2945586c70ebe850ef44d2fa6ff6d38e:2031494342,3a3154e48eebe850b5ae2b5388074c8d:-1885400143,cc43b7736c2ae4d092cb83a1fe986e48:1261147701,1d22f3ff92e6e4d03aa69b5dc08ccfa9:1799321701,7ab0337f7be6e4d07c30f49e3c0e3561:-2113437105,42ff6bfb68e6e4d0b4808d9b0ddabcaf:1054203078,08b5673be0a6e4d096678e2ae86fbe6b:-1635106510,311263f3eda6e4d016aa6c4df4e02221:2012578018,6e2edb7f8466e4d0063097b8a55213c5:-1186395880,89c59bf37666e4d020476b9dbe70635c:2060905756,4e55d7b31566e4d01dd0bea21b9392b4:1289263324,7c57077b3ae2e4d01816badb949bd2a9:726690651,3693292b1baae0d084b779591740b44b:-1248473235,e0d12523efaae0d0279989337039def4:1027447,a551256746aae0d0f2cb2e5948f56a41:-290971647</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-04-13 15:07:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>497b41cb8a9f41ca90245f1127a121f1</sys_id>
+        <sys_metadata>081129a31baae0d08418ebddac4bcb5e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject Order</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_parent display_value="Approval">ca98e11ca4130100edbcc98dd9213ea0</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_scope_delete display_value="">06e6a0ef4d7f477f82b4892e34ae25c9</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_081129a31baae0d08418ebddac4bcb5e</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_081129a31baae0d08418ebddac4bcb5e">2608f03c1b23ac507562a7dcac4bcb12</sys_update_version>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-04-13 15:07:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

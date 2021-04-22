@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>u_project_task_codes</internal_name>
+        <layout>normal</layout>
+        <name>Project Task Codes</name>
+        <order>2250</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>pazhangy</sys_created_by>
+        <sys_created_on>2021-04-01 13:28:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c3afee341b97e4d0f5659605bc4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project Task Codes</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>item_option_new_set_c3afee341b97e4d0f5659605bc4bcb2f</sys_update_name>
+        <sys_updated_by>pazhangy</sys_updated_by>
+        <sys_updated_on>2021-04-01 13:28:17</sys_updated_on>
+        <title>Project Task Codes</title>
+        <type>one_to_many</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a34836e81bc6ac507562a7dcac4bcb4a" sys_domain="global" table="x_g_ni4_interdivis_interdivision_work_order" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bureau_d</element>
+            <position>0</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>655653a01b8aac507562a7dcac4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_task_d</element>
+            <position>1</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>e95653a01b8aac507562a7dcac4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>object_class_d</element>
+            <position>2</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>615653a01b8aac507562a7dcac4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_order_number</element>
+            <position>3</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>e55653a01b8aac507562a7dcac4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>6d5653a01b8aac507562a7dcac4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fcfy_d</element>
+            <position>5</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>e15653a01b8aac507562a7dcac4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>organization_d</element>
+            <position>6</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>695653a01b8aac507562a7dcac4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requisition_number_d</element>
+            <position>7</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>ed5653a01b8aac507562a7dcac4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fcfy_c</element>
+            <position>8</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>655653a01b8aac507562a7dcac4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>object_class_c</element>
+            <position>9</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>e95653a01b8aac507562a7dcac4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>funding_division</element>
+            <position>10</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>615653a01b8aac507562a7dcac4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_task_c</element>
+            <position>11</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>e55653a01b8aac507562a7dcac4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_provider_division</element>
+            <position>12</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>6d5653a01b8aac507562a7dcac4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>organization_c</element>
+            <position>13</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>e15653a01b8aac507562a7dcac4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requisition_number_c</element>
+            <position>14</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>695653a01b8aac507562a7dcac4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>authorized_amount</element>
+            <position>15</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>ed5653a01b8aac507562a7dcac4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>or_estimate_requested</element>
+            <position>16</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>655653a01b8aac507562a7dcac4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>to</element>
+            <position>17</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>e95653a01b8aac507562a7dcac4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>point_of_contact_d</element>
+            <position>18</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>615653a01b8aac507562a7dcac4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>point_of_contact_c</element>
+            <position>19</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>e55653a01b8aac507562a7dcac4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone_ext_d</element>
+            <position>20</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>6d5653a01b8aac507562a7dcac4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone_ext_c</element>
+            <position>21</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>e15653a01b8aac507562a7dcac4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>specification</element>
+            <position>22</position>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 18:19:46</sys_created_on>
+            <sys_id>695653a01b8aac507562a7dcac4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">a34836e81bc6ac507562a7dcac4bcb4a</sys_ui_section>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 18:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>true</header>
+            <name>x_g_ni4_interdivis_interdivision_work_order</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 16:08:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>a34836e81bc6ac507562a7dcac4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_g_ni4_interdivis_interdivision_work_order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+            <sys_update_name>sys_ui_section_a34836e81bc6ac507562a7dcac4bcb4a</sys_update_name>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 16:08:33</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Role for budget analyst and officer</description>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_g_ni4_interdivis.Budget</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Budget</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-04-06 14:14:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e32a60621b132810f5659605bc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_g_ni4_interdivis.Budget</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_user_role_e32a60621b132810f5659605bc4bcb3c</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-04-06 14:14:37</sys_updated_on>
+    </sys_user_role>
+</record_update>

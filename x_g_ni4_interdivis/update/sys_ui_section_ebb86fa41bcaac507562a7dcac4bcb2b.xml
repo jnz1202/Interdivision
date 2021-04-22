@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ebb86fa41bcaac507562a7dcac4bcb2b" sys_domain="global" table="x_g_ni4_interdivis_interdivision_work_order" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:30</sys_created_on>
+            <sys_id>dfbf817e1b5b2c107562a7dcac4bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:30</sys_updated_on>
+            <text>&lt;h&gt;&lt;b&gt;Debit(Expense)--OR--Income Move From(If this is an income to income correction)&lt;/b&gt;&lt;/h&gt;</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:30</sys_created_on>
+            <sys_id>9bbf817e1b5b2c107562a7dcac4bcbd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:30</sys_updated_on>
+            <text/>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:30</sys_created_on>
+            <sys_id>5fbf817e1b5b2c107562a7dcac4bcbd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:30</sys_updated_on>
+            <text>&lt;h&gt;&lt;b&gt;Credit(Income)--OR--Income Move To(If this is an income to income correction)&lt;/b&gt;&lt;/h&gt;</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:30</sys_created_on>
+            <sys_id>13bf817e1b5b2c107562a7dcac4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:30</sys_updated_on>
+            <text/>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>dfbf817a1b9b2c107562a7dcac4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>9bbf817a1b9b2c107562a7dcac4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>income_correction</element>
+            <position>2</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>13bf817a1b9b2c107562a7dcac4bcbe2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reversal</element>
+            <position>3</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>97bf817a1b9b2c107562a7dcac4bcbe2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>d3bf817a1b9b2c107562a7dcac4bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_status</element>
+            <position>5</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>5bbf817a1b9b2c107562a7dcac4bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requester</element>
+            <position>6</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>dfbf817a1b9b2c107562a7dcac4bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_original_no</element>
+            <position>7</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>57bf817a1b9b2c107562a7dcac4bcbf0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>dbbf817a1b9b2c107562a7dcac4bcbf0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfbf817e1b5b2c107562a7dcac4bcbd0</element>
+            <position>9</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>53bf817a1b9b2c107562a7dcac4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>10</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>d7bf817a1b9b2c107562a7dcac4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fcfy_d</element>
+            <position>11</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>5fbf817a1b9b2c107562a7dcac4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>object_class_d</element>
+            <position>12</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>d3bf817a1b9b2c107562a7dcac4bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_order_number</element>
+            <position>13</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>5bbf817a1b9b2c107562a7dcac4bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>authorized_amount</element>
+            <position>14</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>dfbf817a1b9b2c107562a7dcac4bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>or_estimate_requested</element>
+            <position>15</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>57bf817a1b9b2c107562a7dcac4bcbf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>16</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>dbbf817a1b9b2c107562a7dcac4bcbf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_task_d</element>
+            <position>17</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>53bf817a1b9b2c107562a7dcac4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requisition_number_d</element>
+            <position>18</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>d7bf817a1b9b2c107562a7dcac4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_needed</element>
+            <position>19</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>5fbf817a1b9b2c107562a7dcac4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>funding_division</element>
+            <position>20</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>d3bf817a1b9b2c107562a7dcac4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>point_of_contact_d</element>
+            <position>21</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>5bbf817a1b9b2c107562a7dcac4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>point_of_contact_d.phone</element>
+            <position>22</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>dfbf817a1b9b2c107562a7dcac4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>23</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>57bf817a1b9b2c107562a7dcac4bcbf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>9bbf817e1b5b2c107562a7dcac4bcbd1</element>
+            <position>24</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>dbbf817a1b9b2c107562a7dcac4bcbf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>5fbf817e1b5b2c107562a7dcac4bcbd1</element>
+            <position>25</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>53bf817a1b9b2c107562a7dcac4bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>26</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>d7bf817a1b9b2c107562a7dcac4bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fcfy_c</element>
+            <position>27</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>5fbf817a1b9b2c107562a7dcac4bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>object_class_c</element>
+            <position>28</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>d3bf817a1b9b2c107562a7dcac4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_provider_division</element>
+            <position>29</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>5bbf817a1b9b2c107562a7dcac4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>30</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>dfbf817a1b9b2c107562a7dcac4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_task_c</element>
+            <position>31</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>57bf817a1b9b2c107562a7dcac4bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requisition_number_c</element>
+            <position>32</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>dbbf817a1b9b2c107562a7dcac4bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>point_of_contact_c</element>
+            <position>33</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>53bf817a1b9b2c107562a7dcac4bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>point_of_contact_c.phone</element>
+            <position>34</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>d7bf817a1b9b2c107562a7dcac4bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>35</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>5fbf817a1b9b2c107562a7dcac4bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>13bf817e1b5b2c107562a7dcac4bcbd2</element>
+            <position>36</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>d3bf817a1b9b2c107562a7dcac4bcbfb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>specification</element>
+            <position>37</position>
+            <sys_created_by>pazhangy</sys_created_by>
+            <sys_created_on>2021-04-07 11:36:31</sys_created_on>
+            <sys_id>5bbf817a1b9b2c107562a7dcac4bcbfb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_g_ni4_interdivis_interdivision_work_order" sys_domain="global" view="Default view">ebb86fa41bcaac507562a7dcac4bcb2b</sys_ui_section>
+            <sys_updated_by>pazhangy</sys_updated_by>
+            <sys_updated_on>2021-04-07 11:36:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_g_ni4_interdivis_interdivision_work_order</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-01-28 19:40:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>ebb86fa41bcaac507562a7dcac4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_g_ni4_interdivis_interdivision_work_order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+            <sys_update_name>sys_ui_section_ebb86fa41bcaac507562a7dcac4bcb2b</sys_update_name>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-01-28 19:40:10</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

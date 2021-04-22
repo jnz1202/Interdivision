@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="cmdb_ci" label="Interdivision Work Order" max_length="40" name="x_g_ni4_interdivis_interdivision_work_order" sizeclass="240" type="collection">
+        <element label="Authorized Amount" mandatory="true" max_length="20" name="authorized_amount" type="currency"/>
+        <element label="Budget Approved Date" max_length="40" name="budget_approved_date" type="glide_date_time"/>
+        <element label="Budget Approver" max_length="32" name="budget_approver" reference="sys_user" type="reference"/>
+        <element label="Budget Officer Approved Date" max_length="40" name="budget_officer_approved_date" type="glide_date_time"/>
+        <element label="Budget Officer Approver" max_length="32" name="budget_officer_approver" reference="sys_user" type="reference"/>
+        <element label="Bureau" max_length="40" name="bureau_c" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Bureau" max_length="40" name="bureau_d" type="string"/>
+        <element label="Credit AO Approved Date" max_length="40" name="credit_ao_approved_date" type="glide_date_time"/>
+        <element label="Credit AO Approver" max_length="32" name="credit_ao_approver" reference="sys_user" type="reference"/>
+        <element label="Date Needed" max_length="100" name="date_needed" type="glide_date"/>
+        <element label="Debit AO Approved Date" max_length="40" name="debit_ao_approved_date" type="glide_date_time"/>
+        <element label="Debit AO Approver" max_length="32" name="debit_ao_approver" reference="sys_user" type="reference"/>
+        <element choice="1" label="FCFY" mandatory="true" max_length="40" name="fcfy_c" reference="u_fiscal_year" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="FCFY" mandatory="true" max_length="40" name="fcfy_d" reference="u_fiscal_year" type="reference">
+            <choice/>
+        </element>
+        <element label="Funding Division" mandatory="true" max_length="32" name="funding_division" reference="cmn_department" reference_qual="u_active=true^sys_class_name=cmn_department^EQ" reference_qual_condition="u_active=true^sys_class_name=cmn_department^EQ" type="reference"/>
+        <element label="Is this an income correction?" max_length="20" name="income_correction" read_only="true" type="boolean"/>
+        <element active="false" label="Use multiple project task codes" max_length="40" name="multiple_ptc" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" dynamic_default_value="0d9c53c0db3ea2002156d20e0f96194d" label="Number" mandatory="true" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="Object Class" max_length="100" name="object_class_c" type="string"/>
+        <element label="Object Class" max_length="100" name="object_class_d" type="string"/>
+        <element choice="1" default="Draft" label="Order Status" max_length="40" name="order_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" value="Cancelled"/>
+                <element inactive_on_update="false" label="Draft" value="Draft"/>
+                <element inactive_on_update="false" label="Processed" value="Processed"/>
+                <element inactive_on_update="false" label="Rejected" value="Rejected"/>
+                <element inactive_on_update="false" label="Credit AO Estimate" sequence="1" value="Credit AO Estimate"/>
+                <element inactive_on_update="false" label="Debit AO Approval" sequence="2" value="Debit AO Approval"/>
+                <element inactive_on_update="false" label="Debit SMA Approval" sequence="3" value="Debit SMA Approval"/>
+                <element inactive_on_update="false" label="Credit AO Approval" sequence="4" value="Credit AO Approval"/>
+                <element inactive_on_update="false" label="Budget Approval" sequence="5" value="Budget Approval"/>
+                <element inactive_on_update="false" label="Approved" sequence="6" value="Approved"/>
+            </choice>
+        </element>
+        <element label="Organization" max_length="200" name="organization_c" type="string"/>
+        <element label="Organization" max_length="200" name="organization_d" type="string"/>
+        <element label="OR Estimate Requested" max_length="10" name="or_estimate_requested" read_only="true" type="boolean"/>
+        <element label="Phone Ext" max_length="20" name="phone_ext_c" read_only="true" type="string"/>
+        <element label="Phone Ext" max_length="20" name="phone_ext_d" read_only="true" type="string"/>
+        <element label="Point of Contact" mandatory="true" max_length="32" name="point_of_contact_c" reference="sys_user" reference_qual="active=true^u_class=1^u_staff_type=NIST Employee^EQ" reference_qual_condition="active=true^u_class=1^u_staff_type=NIST Employee^EQ" type="reference"/>
+        <element label="Point of Contact" mandatory="true" max_length="32" name="point_of_contact_d" reference="sys_user" reference_qual="active=true^u_class=1^u_staff_type=NIST Employee^EQ" reference_qual_condition="active=true^u_class=1^u_staff_type=NIST Employee^EQ" type="reference"/>
+        <element label="Project task" max_length="32" name="project_task_c" reference="u_project_task_code" type="reference"/>
+        <element label="Project task" max_length="32" name="project_task_d" reference="u_project_task_code" type="reference"/>
+        <element label="Requester" max_length="32" name="requester" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Requisition Number" max_length="100" name="requisition_number_c" type="string"/>
+        <element label="Requisition Number" max_length="100" name="requisition_number_d" type="string"/>
+        <element label="Service Provider Division" mandatory="true" max_length="32" name="service_provider_division" reference="cmn_department" reference_qual="u_active=true^sys_class_name=cmn_department^EQ" reference_qual_condition="u_active=true^sys_class_name=cmn_department^EQ" type="reference"/>
+        <element label="SMA Approved Date" max_length="40" name="sma_approved_date" type="glide_date_time"/>
+        <element label="SMA Approver" max_length="32" name="sma_approver" reference="sys_user" type="reference"/>
+        <element label="Specification" mandatory="true" max_length="1000" name="specification" type="string"/>
+        <element label=" To" max_length="32" name="to" read_only="true" reference="sys_user" reference_qual="active=true^u_class=1^EQ" reference_qual_condition="active=true^u_class=1^EQ" type="reference"/>
+        <element label="Original NIST-461 No.:" max_length="32" name="u_original_no" read_only="true" reference="x_g_ni4_interdivis_interdivision_work_order" type="reference"/>
+        <element label="Is this a reversal of previously submitted 461?" max_length="20" name="u_reversal" read_only="true" type="boolean"/>
+        <element label="Work Order Number" max_length="50" name="work_order_number" type="string"/>
+    </element>
+</database>

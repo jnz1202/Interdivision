@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Interdivision Work Order(N461)">4488cd9a1b4a6c90f5659605bc4bcba3</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>SetCurrent FY</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  	var gr = new GlideRecord('u_fiscal_year');
+		gr.addQuery('u_active', true);		
+		gr.query(doThis);
+
+function doThis(caller){
+while(gr.next()){//
+			
+			g_form.setValue('fcfy_c', gr.sys_id);
+			g_form.setValue('fcfy_d',  gr.sys_id);
+			}
+		}
+		
+
+}
+
+]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-09 17:43:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>517ebca81b1a6810f5659605bc4bcbf3</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>SetCurrent FY</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>catalog_script_client_517ebca81b1a6810f5659605bc4bcbf3</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-10 12:15:43</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

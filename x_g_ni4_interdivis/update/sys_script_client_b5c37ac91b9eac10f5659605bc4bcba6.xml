@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>object_class_c</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Validate Object Class c</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   if (newValue == '') {
+		g_form.hideFieldMsg('object_class_c');
+		return;
+		
+	}
+	//check if it has 62. or 52
+	var str1 = newValue.indexOf(62);
+	var str2=newValue.indexOf(52);
+	var rx = new RegExp(/^\d{4}$/);
+	
+	if (!rx.test(newValue)) {
+		g_form.hideFieldMsg('object_class_c');
+		g_form.setValue('object_class_c', '');
+		g_form.showFieldMsg('object_class_c', 'Please enter 4 digits number only.', 'error');
+		
+	} else {
+		if (str1 ==0 || str2==0){
+			 g_form.hideFieldMsg('object_class_c');
+		}
+		else
+			{
+				g_form.setValue('object_class_c', '');
+				g_form.showFieldMsg('object_class_c', 'Please enter 4 digits number start with 62 or 52.', 'error');
+			}
+		
+		  
+		
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-11 15:21:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b5c37ac91b9eac10f5659605bc4bcba6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Validate Object Class c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_script_client_b5c37ac91b9eac10f5659605bc4bcba6</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-11 15:22:17</sys_updated_on>
+        <table>x_g_ni4_interdivis_interdivision_work_order</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

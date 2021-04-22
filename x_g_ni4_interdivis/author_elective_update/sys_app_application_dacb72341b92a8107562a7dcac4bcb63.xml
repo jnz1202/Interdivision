@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Approval Delegation</name>
+        <order>100</order>
+        <roles>x_g_ni4_interdivis.approval_delegation_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>pazhangy</sys_created_by>
+        <sys_created_on>2021-02-10 21:17:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>dacb72341b92a8107562a7dcac4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval Delegation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_app_application_dacb72341b92a8107562a7dcac4bcb63</sys_update_name>
+        <sys_updated_by>pazhangy</sys_updated_by>
+        <sys_updated_on>2021-02-10 21:17:55</sys_updated_on>
+        <title>Approval Delegation</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</application>
+        <comments/>
+        <file_path/>
+        <instance_id>5d010e26db5384901198b16a3296195c</instance_id>
+        <instance_name>nistdev</instance_name>
+        <name>sys_app_application_dacb72341b92a8107562a7dcac4bcb63</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Approval Delegation</name><order>100</order><roles>x_g_ni4_interdivis.approval_delegation_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>pazhangy</sys_created_by><sys_created_on>2021-02-10 21:17:55</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>dacb72341b92a8107562a7dcac4bcb63</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approval Delegation</sys_name><sys_overrides/><sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope><sys_update_name>sys_app_application_dacb72341b92a8107562a7dcac4bcb63</sys_update_name><sys_updated_by>pazhangy</sys_updated_by><sys_updated_on>2021-02-10 21:17:55</sys_updated_on><title>Approval Delegation</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>926569196</payload_hash>
+        <record_name>Approval Delegation</record_name>
+        <reverted_from/>
+        <source>3d43f2a41bc6ac507562a7dcac4bcb2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pazhangy</sys_created_by>
+        <sys_created_on>2021-02-10 21:17:55</sys_created_on>
+        <sys_id>92cb72341b92a8107562a7dcac4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778dcec9fd0000001</sys_recorded_at>
+        <sys_updated_by>pazhangy</sys_updated_by>
+        <sys_updated_on>2021-02-10 21:17:55</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>9acb72348392a810d3f2930fc3700966</update_guid>
+        <update_guid_history>9acb72348392a810d3f2930fc3700966:926569196</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-10 16:19:20">8f1c7a341b92a8107562a7dcac4bcbf0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pazhangy</sys_created_by>
+        <sys_created_on>2021-02-10 21:19:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>5627653452364900a598c1a02d584000</sys_id>
+        <sys_metadata>dacb72341b92a8107562a7dcac4bcb63</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval Delegation</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_scope_delete display_value="">06e6a0ef4d7f477f82b4892e34ae25c9</sys_scope_delete>
+        <sys_update_name>sys_app_application_dacb72341b92a8107562a7dcac4bcb63</sys_update_name>
+        <sys_update_version display_value="sys_app_application_dacb72341b92a8107562a7dcac4bcb63">92cb72341b92a8107562a7dcac4bcb67</sys_update_version>
+        <sys_updated_by>pazhangy</sys_updated_by>
+        <sys_updated_on>2021-02-10 21:19:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

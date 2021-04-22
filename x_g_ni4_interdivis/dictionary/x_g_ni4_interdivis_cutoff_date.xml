@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Cutoff Date" max_length="40" name="x_g_ni4_interdivis_cutoff_date" sizeclass="1" type="collection">
+        <element default="true" label="Current Year" max_length="40" name="current_year" type="boolean"/>
+        <element label="Cutoff Date" max_length="40" name="cutoff_date" type="glide_date_time"/>
+        <element label="Fiscal Year" max_length="20" name="year" type="string"/>
+    </element>
+</database>

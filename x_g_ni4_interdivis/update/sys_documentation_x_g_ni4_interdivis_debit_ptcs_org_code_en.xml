@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="org_code" label="org code" language="en" table="x_g_ni4_interdivis_debit_ptcs">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>org_code</element>
+            <help/>
+            <hint/>
+            <label>org code</label>
+            <language>en</language>
+            <name>x_g_ni4_interdivis_debit_ptcs</name>
+            <plural>org codes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-04-05 18:05:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b185505e1b97a410f5659605bc4bcb20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>org code</sys_name>
+            <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+            <sys_update_name>sys_documentation_x_g_ni4_interdivis_debit_ptcs_org_code_en</sys_update_name>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-04-05 18:05:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

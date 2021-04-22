@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Interdivision Work Order(N461)">4488cd9a1b4a6c90f5659605bc4bcba3</catalog_item>
+        <catalog_variable>IO:bcf903f31b26e4d08418ebddac4bcb92</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-03-23 19:38:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5d2e294a1b0fac50f5659605bc4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>requester</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_5d2e294a1b0fac50f5659605bc4bcb2c</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-03-23 19:38:23</sys_updated_on>
+        <table/>
+        <ui_policy display_value="make requester read only">530e254a1b0fac50f5659605bc4bcbbb</ui_policy>
+        <variable>requester</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

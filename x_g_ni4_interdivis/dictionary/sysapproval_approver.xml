@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" label="Approval" max_length="40" name="sysapproval_approver" sizeclass="84552" type="collection">
+        <element label="NIST461" max_length="32" name="x_g_ni4_interdivis_nist461" reference="x_g_ni4_interdivis_interdivision_work_order" type="reference"/>
+        <index name="index">
+            <element name="x_g_ni4_interdivis_nist461"/>
+        </index>
+    </element>
+</database>

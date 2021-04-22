@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="DELETE">
+        <active>false</active>
+        <attributes/>
+        <cat_item display_value="Interdivision Work Order(N461)">4488cd9a1b4a6c90f5659605bc4bcba3</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>split_2</name>
+        <order>1500</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text/>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_g_ni4_interdivis_interdivision_work_order</record_producer_table>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-02 20:08:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b91fd5521b0e6c90f5659605bc4bcb3c</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>split_2</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>item_option_new_b91fd5521b0e6c90f5659605bc4bcb3c</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-04 17:35:30</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>24</type>
+        <u_exclude_from_email>false</u_exclude_from_email>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="DELETE" query="documentkey=b91fd5521b0e6c90f5659605bc4bcb3c"/>
+    <fx_price action="DELETE" query="id=b91fd5521b0e6c90f5659605bc4bcb3c"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>b91fd5521b0e6c90f5659605bc4bcb3c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-02 20:08:33</sys_created_on>
+        <sys_id>8c3f19521b0e6c90f5659605bc4bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-02 20:08:33</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>b91fd5521b0e6c90f5659605bc4bcb3c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-02 20:08:32</sys_created_on>
+        <sys_id>083f19521b0e6c90f5659605bc4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-02 20:08:32</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</application>
+        <comments/>
+        <file_path/>
+        <instance_id>5d010e26db5384901198b16a3296195c</instance_id>
+        <instance_name>nistdev</instance_name>
+        <name>item_option_new_b91fd5521b0e6c90f5659605bc4bcb3c</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>false</active><attributes/><cat_item display_value="Interdivision Work Order(N461)">4488cd9a1b4a6c90f5659605bc4bcba3</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>split_2</name><order>1500</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text/><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>x_g_ni4_interdivis_interdivision_work_order</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>jnz1202</sys_created_by><sys_created_on>2021-02-02 20:08:32</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b91fd5521b0e6c90f5659605bc4bcb3c</sys_id><sys_mod_count>28</sys_mod_count><sys_name>split_2</sys_name><sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope><sys_update_name>item_option_new_b91fd5521b0e6c90f5659605bc4bcb3c</sys_update_name><sys_updated_by>jnz1202</sys_updated_by><sys_updated_on>2021-02-04 17:35:30</sys_updated_on><table/><tooltip/><type>24</type><u_exclude_from_email>false</u_exclude_from_email><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=b91fd5521b0e6c90f5659605bc4bcb3c"/><fx_price action="delete_multiple" query="id=b91fd5521b0e6c90f5659605bc4bcb3c"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>b91fd5521b0e6c90f5659605bc4bcb3c</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>jnz1202</sys_created_by><sys_created_on>2021-02-02 20:08:33</sys_created_on><sys_id>8c3f19521b0e6c90f5659605bc4bcb3f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>jnz1202</sys_updated_by><sys_updated_on>2021-02-02 20:08:33</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>b91fd5521b0e6c90f5659605bc4bcb3c</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>jnz1202</sys_created_by><sys_created_on>2021-02-02 20:08:32</sys_created_on><sys_id>083f19521b0e6c90f5659605bc4bcb3e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>jnz1202</sys_updated_by><sys_updated_on>2021-02-02 20:08:32</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-2010933567</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3d43f2a41bc6ac507562a7dcac4bcb2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-04 17:35:30</sys_created_on>
+        <sys_id>b15f033a1bcea0d0f5659605bc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776e1d022c0000001</sys_recorded_at>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-04 17:35:30</sys_updated_on>
+        <type>Variable</type>
+        <update_guid>795f033a96cea0d06e2f647bdb6c8bc7</update_guid>
+        <update_guid_history>795f033a96cea0d06e2f647bdb6c8bc7:-2010933567,550e83b6ddcea0d0675e18d0d591c498:54868176,51cd0f764dcea0d0af9bcf06b42b87e4:-1099741007,2b7bcbf2d1cea0d08677ab701e6acc3b:54868176,c9dbeaea4c0a20d0c892f2cefdcedfda:-2010933567,dc8f566a19c620d0123eab5824f2b3c8:54868176,02c849aa16c6ec908d774e1375c50930:-268601260,29b4829a61ce6c90c4684d17b0bf9fe1:2103961513,a8240a5a1bce6c907ed4aca4de1a5073:-1003014090,fbfbfd5e398e6c901bb02ef31e6ef101:2137344023,247a3dda9f8e6c90eb6bb29d082f0ba4:-1003014090,575ab9da668e6c905c9f861392a0a3a7:151595093,7db1b152688e6c90046f967e197e419c:2137344023,21a13152018e6c90874fd4d18e8aecea:-1003014090,6d713d128d8e6c900927b50aed2f1a33:151595093,a751b912cf8e6c90a1e0fca6e2589acb:-1003014090,0231f512968e6c90fcc1caee19696ba4:2137344023,0511b512908e6c906a5a5bbde9055803:-1003014090,748d69da454e6c9015d987d7bcaa1d50:2137344023,336d29da454e6c903a515f8d7e78b673:-1003014090,1d0d21dacc4e6c90e218068417515e36:2137344023,7499e996684e6c905efab4aeb27cde20:-1424524922,83482956ac4e6c9082c5805442bc5c30:2137344023,600725d2644e6c90548dc368a0a70e9b:982734840,5d96a992254e6c9054c39e15091649e7:151595093,0813a55e910e6c90228e7d88c32c4bcb:982734840,1dd2a15e210e6c9071c9e7ac3acb28df:-171874343,834f5992560e6c90aa6c299d5765295c:614383972,c83f19527b0e6c90b491101a1955c342:2110629636</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-04 14:18:09">99d623721b82e0d0f5659605bc4bcb6f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-04 19:18:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
+        <sys_id>e9f4d466f79343b9a98d0f963c50ba71</sys_id>
+        <sys_metadata>b91fd5521b0e6c90f5659605bc4bcb3c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>split_2</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_parent display_value="Interdivision Work Order(N461)">4488cd9a1b4a6c90f5659605bc4bcba3</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_scope_delete display_value="">06e6a0ef4d7f477f82b4892e34ae25c9</sys_scope_delete>
+        <sys_update_name>item_option_new_b91fd5521b0e6c90f5659605bc4bcb3c</sys_update_name>
+        <sys_update_version display_value="item_option_new_b91fd5521b0e6c90f5659605bc4bcb3c">b15f033a1bcea0d0f5659605bc4bcbc8</sys_update_version>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-04 19:18:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

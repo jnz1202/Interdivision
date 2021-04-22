@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sysapproval_approver</collection>
+        <condition table="sysapproval_approver">source_tableSTARTSWITHx_g_ni4_interdivis_interdivision_work_order^state=requested^u_short_descriptionSTARTSWITHDebit SMA Approval^EQ<item endquery="false" field="source_table" goto="false" newquery="false" operator="STARTSWITH" or="false" value="x_g_ni4_interdivis_interdivision_work_order"/>
+            <item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+            <item endquery="false" field="u_short_description" goto="false" newquery="false" operator="STARTSWITH" or="false" value="Debit SMA Approval"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.inserted</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <group/>
+        <group_field/>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <list/>
+        <list_field/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello ${approver},</p>
+<p><span xml:lang="EN-US" data-contrast="auto">An Interdivision Work Order </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559685&quot;:720,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">request has been submitted and is waiting for your review and approval. </span></p>
+<div>
+<p>IWO Number: ${x_g_ni4_interdivis_nist461.number}</p>
+<p>Project Task Code: ${x_g_ni4_interdivis_nist461.project_task_d}</p>
+<p>Income Correction: ${x_g_ni4_interdivis_nist461.income_correction}</p>
+<p>Reversal: ${x_g_ni4_interdivis_nist461.u_reversal}</p>
+<p>Point of Contact: ${x_g_ni4_interdivis_nist461.point_of_contact_d}</p>
+<p>Authorized Amount: ${x_g_ni4_interdivis_nist461.authorized_amount}</p>
+<p>Specification: ${x_g_ni4_interdivis_nist461.specification}</p>
+</div>
+<div>
+<div>
+<p><span xml:lang="EN-US" data-contrast="auto">Please click on this link to view the work order and approve the transaction:</span></p>
+${mail_script:NIST461PortlLink}<br />
+<p>&nbsp;</p>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Debit SMA Approval</name>
+        <omit_watermark>false</omit_watermark>
+        <order/>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>approver</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject> Interdivision Work Order ${x_g_ni4_interdivis_nist461.number} request needs your review and approval.</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-17 15:40:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>02a1b90f1b926810b96a98ad9c4bcb48</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Debit SMA Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sysevent_email_action_02a1b90f1b926810b96a98ad9c4bcb48</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-04-13 13:12:53</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <user/>
+        <user_field/>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Budget Analyst" max_length="40" name="x_g_ni4_interdivis_budget_analyst" sizeclass="91" type="collection">
+        <element label="Division" max_length="32" name="division" reference="cmn_department" reference_qual="sys_class_name=cmn_department^u_active=true^EQ" reference_qual_condition="sys_class_name=cmn_department^u_active=true^EQ" type="reference"/>
+        <element label="Primary BA" max_length="32" name="primary_ba" reference="sys_user" reference_qual="active=true^u_class=1^u_staff_type=NIST Employee^EQ" reference_qual_condition="active=true^u_class=1^u_staff_type=NIST Employee^EQ" type="reference"/>
+        <element label="Secondary BA" max_length="32" name="secondary_ba" reference="sys_user" reference_qual="active=true^u_class=1^u_staff_type=NIST Employee^EQ" reference_qual_condition="active=true^u_class=1^u_staff_type=NIST Employee^EQ" type="reference"/>
+        <element label="Tertiary BA" max_length="32" name="tertiary_ba" reference="sys_user" reference_qual="active=true^u_class=1^u_staff_type=NIST Employee^EQ" reference_qual_condition="active=true^u_class=1^u_staff_type=NIST Employee^EQ" type="reference"/>
+        <index name="index">
+            <element name="division"/>
+        </index>
+        <index name="index2">
+            <element name="tertiary_ba"/>
+        </index>
+        <index name="index3">
+            <element name="secondary_ba"/>
+        </index>
+        <index name="index4">
+            <element name="primary_ba"/>
+        </index>
+    </element>
+</database>

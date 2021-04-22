@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_g_ni4_interdivis_interdivision_work_order</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_g_ni4_interdivis.Interdivision Work order submitted</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <group/>
+        <group_field/>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <list/>
+        <list_field/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello ${requester.name},</p>
+<p><span xml:lang="EN-US" data-contrast="auto">Your&nbsp;</span><span xml:lang="EN-US" data-contrast="auto">Interdivision Work Order</span><span xml:lang="EN-US" data-contrast="auto">&nbsp;request has been submitted.</span></p>
+<div>
+<div>
+<p><span xml:lang="EN-US" data-contrast="auto"><span data-ccp-parastyle="Normal (Web)">To track status, click link provided below.</span></span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559740&quot;:240}">&nbsp;</span></p>
+<table style="height: 246px; width: 455px; border-collapse: collapse;" border="1">
+<tbody>
+<tr style="height: 13px;">
+<td style="width: 103px; height: 13px;"><strong><span xml:lang="EN-US" data-contrast="auto">Interdivision Work Order #</span>&nbsp; </strong></td>
+<td style="width: 345px; height: 13px;">${mail_script:NIST461PortlLinkonInterdivision}</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 103px; height: 13px;"><strong><span xml:lang="EN-US" data-contrast="auto">Status</span>&nbsp; </strong></td>
+<td style="width: 345px; height: 13px;">${order_status}</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 103px; height: 13px;"><strong><span xml:lang="EN-US" data-contrast="auto">Authorized Amount</span>&nbsp; </strong></td>
+<td style="width: 345px; height: 13px;">${authorized_amount}</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 103px; height: 13px;"><strong><span xml:lang="EN-US" data-contrast="auto">Specification</span>&nbsp; </strong></td>
+<td style="width: 345px; height: 13px;">${specification}</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 103px; height: 13px;"><strong><span xml:lang="EN-US" data-contrast="auto">Income Correction?</span>&nbsp; </strong></td>
+<td style="width: 345px; height: 13px;">${income_correction}</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 103px; height: 13px;"><strong><span xml:lang="EN-US" data-contrast="auto">Reversal?</span>&nbsp; </strong></td>
+<td style="width: 345px; height: 13px;">
+<p>${u_reversal}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Interdivision Work Order Submitted</name>
+        <omit_watermark>false</omit_watermark>
+        <order/>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>point_of_contact_d,requester</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>STATUS - Interdivision Work Order ${number} request has been submitted</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-16 19:33:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e8291dfe1b522810b96a98ad9c4bcb28</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Interdivision Work Order Submitted</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sysevent_email_action_e8291dfe1b522810b96a98ad9c4bcb28</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-04-13 14:44:26</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <user/>
+        <user_field/>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

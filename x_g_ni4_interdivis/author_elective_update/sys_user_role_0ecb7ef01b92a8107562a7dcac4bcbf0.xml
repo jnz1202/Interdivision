@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_g_ni4_interdivis.approval_delegation_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>approval_delegation_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>pazhangy</sys_created_by>
+        <sys_created_on>2021-02-10 21:17:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0ecb7ef01b92a8107562a7dcac4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_g_ni4_interdivis.approval_delegation_user</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_user_role_0ecb7ef01b92a8107562a7dcac4bcbf0</sys_update_name>
+        <sys_updated_by>pazhangy</sys_updated_by>
+        <sys_updated_on>2021-02-10 21:17:55</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</application>
+        <comments/>
+        <file_path/>
+        <instance_id>5d010e26db5384901198b16a3296195c</instance_id>
+        <instance_name>nistdev</instance_name>
+        <name>sys_user_role_0ecb7ef01b92a8107562a7dcac4bcbf0</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_g_ni4_interdivis.approval_delegation_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>approval_delegation_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>pazhangy</sys_created_by><sys_created_on>2021-02-10 21:17:55</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>0ecb7ef01b92a8107562a7dcac4bcbf0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_ni4_interdivis.approval_delegation_user</sys_name><sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope><sys_update_name>sys_user_role_0ecb7ef01b92a8107562a7dcac4bcbf0</sys_update_name><sys_updated_by>pazhangy</sys_updated_by><sys_updated_on>2021-02-10 21:17:55</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>2036431871</payload_hash>
+        <record_name>x_g_ni4_interdivis.approval_delegation_user</record_name>
+        <reverted_from/>
+        <source>3d43f2a41bc6ac507562a7dcac4bcb2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pazhangy</sys_created_by>
+        <sys_created_on>2021-02-10 21:17:55</sys_created_on>
+        <sys_id>decb72341b92a8107562a7dcac4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778dcec95a0000001</sys_recorded_at>
+        <sys_updated_by>pazhangy</sys_updated_by>
+        <sys_updated_on>2021-02-10 21:17:55</sys_updated_on>
+        <type>Role</type>
+        <update_guid>d6cb72341a92a8100164f825e46ba35d</update_guid>
+        <update_guid_history>d6cb72341a92a8100164f825e46ba35d:2036431871</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-12 11:20:49">a1fa04651bdaec107562a7dcac4bcba4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pazhangy</sys_created_by>
+        <sys_created_on>2021-02-12 16:20:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>093db83746cc400080f280e7b6210000</sys_id>
+        <sys_metadata>0ecb7ef01b92a8107562a7dcac4bcbf0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_g_ni4_interdivis.approval_delegation_user</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_scope_delete display_value="">06e6a0ef4d7f477f82b4892e34ae25c9</sys_scope_delete>
+        <sys_update_name>sys_user_role_0ecb7ef01b92a8107562a7dcac4bcbf0</sys_update_name>
+        <sys_update_version display_value="sys_user_role_0ecb7ef01b92a8107562a7dcac4bcbf0">decb72341b92a8107562a7dcac4bcb5d</sys_update_version>
+        <sys_updated_by>pazhangy</sys_updated_by>
+        <sys_updated_on>2021-02-12 16:20:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

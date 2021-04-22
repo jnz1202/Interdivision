@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_reversal" label="Is this a reversal of previously submitted 461?" language="en" table="x_g_ni4_interdivis_interdivision_work_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_reversal</element>
+            <help/>
+            <hint/>
+            <label>Is this a reversal of previously submitted 461?</label>
+            <language>en</language>
+            <name>x_g_ni4_interdivis_interdivision_work_order</name>
+            <plural>Is this a reversal of previously submitted 461?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jnz1202</sys_created_by>
+            <sys_created_on>2021-02-03 19:06:12</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a88ade621bc620d0f5659605bc4bcbb9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Is this a reversal of previously submitted 461?</sys_name>
+            <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+            <sys_update_name>sys_documentation_x_g_ni4_interdivis_interdivision_work_order_u_reversal_en</sys_update_name>
+            <sys_updated_by>jnz1202</sys_updated_by>
+            <sys_updated_on>2021-03-22 12:55:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

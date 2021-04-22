@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>Debit_header</name>
+        <scoped_name>x_g_ni4_interdivis_Debit_header</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-03 21:55:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1101cba61b8a20d0f5659605bc4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Debit_header</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_ui_macro_1101cba61b8a20d0f5659605bc4bcb2b</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-03 21:55:57</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<b>Debit(Expense)--OR--Income Move From(If this is an income to income correction)
+</b>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Interdivision">4488cd9a1b4a6c90f5659605bc4bcba3</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-02 18:29:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8888c5da1b4a6c90f5659605bc4bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Interdivision</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_8888c5da1b4a6c90f5659605bc4bcb66</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-02 18:29:25</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</application>
+        <comments/>
+        <file_path/>
+        <instance_id>5d010e26db5384901198b16a3296195c</instance_id>
+        <instance_name>nistdev</instance_name>
+        <name>sc_cat_item_catalog_8888c5da1b4a6c90f5659605bc4bcb66</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Interdivision">4488cd9a1b4a6c90f5659605bc4bcba3</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>jnz1202</sys_created_by><sys_created_on>2021-02-02 18:29:25</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8888c5da1b4a6c90f5659605bc4bcb66</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Interdivision</sys_name><sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope><sys_update_name>sc_cat_item_catalog_8888c5da1b4a6c90f5659605bc4bcb66</sys_update_name><sys_updated_by>jnz1202</sys_updated_by><sys_updated_on>2021-02-02 18:29:25</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1142874074</payload_hash>
+        <record_name>Service Catalog.Interdivision</record_name>
+        <reverted_from/>
+        <source>3d43f2a41bc6ac507562a7dcac4bcb2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-02 18:29:25</sys_created_on>
+        <sys_id>0c88c5da1b4a6c90f5659605bc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776401a6240000001</sys_recorded_at>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-02 18:29:25</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>c088c5dabe4a6c90ac38a67351d67a76</update_guid>
+        <update_guid_history>c088c5dabe4a6c90ac38a67351d67a76:1142874074</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-04 11:18:12">a9ad767e1b4ea0d0f5659605bc4bcb17</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-04 16:18:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>5acbe57e10ca4074a6c7d69274727429</sys_id>
+        <sys_metadata>8888c5da1b4a6c90f5659605bc4bcb66</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Interdivision</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_parent display_value="Interdivision Work Order(N461)">4488cd9a1b4a6c90f5659605bc4bcba3</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_scope_delete display_value="">06e6a0ef4d7f477f82b4892e34ae25c9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_8888c5da1b4a6c90f5659605bc4bcb66</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_8888c5da1b4a6c90f5659605bc4bcb66">0c88c5da1b4a6c90f5659605bc4bcb76</sys_update_version>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-04 16:18:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Interdivision Work Order(N461)">4488cd9a1b4a6c90f5659605bc4bcba3</catalog_item>
+        <catalog_variable>IO:fc8809da1b4a6c90f5659605bc4bcb33</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-16 18:13:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>052b85b21b522810b96a98ad9c4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>income_correction</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_052b85b21b522810b96a98ad9c4bcb0a</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-16 18:13:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Reversal/correction">46da41b21b522810b96a98ad9c4bcb10</ui_policy>
+        <variable>income_correction</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

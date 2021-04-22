@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>specification</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-03-31 13:38:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>742821201bd3ac907562a7dcac4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>specification</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_ui_policy_action_742821201bd3ac907562a7dcac4bcb9f</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-03-31 13:38:59</sys_updated_on>
+        <table>x_g_ni4_interdivis_interdivision_work_order</table>
+        <ui_policy display_value="Make specification read only after approved">a4f76dec1b93ac907562a7dcac4bcbbb</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

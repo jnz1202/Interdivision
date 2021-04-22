@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>2250</order>
+        <sc_cat_item display_value="Interdivision Work Order(N461)">4488cd9a1b4a6c90f5659605bc4bcba3</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>pazhangy</sys_created_by>
+        <sys_created_on>2021-04-01 13:28:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dacf62741b97e4d0f5659605bc4bcbff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Project Task Codes.Interdivision Work Order(N461)</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>io_set_item_dacf62741b97e4d0f5659605bc4bcbff</sys_update_name>
+        <sys_updated_by>pazhangy</sys_updated_by>
+        <sys_updated_on>2021-04-01 13:28:17</sys_updated_on>
+        <variable_set display_value="Project Task Codes">c3afee341b97e4d0f5659605bc4bcb2f</variable_set>
+    </io_set_item>
+</record_update>

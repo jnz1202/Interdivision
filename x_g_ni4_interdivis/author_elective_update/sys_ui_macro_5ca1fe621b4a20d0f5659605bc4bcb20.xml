@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>Interdivision_Debit</name>
+        <scoped_name>x_g_ni4_interdivis_Interdivision_Debit</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-03 20:50:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5ca1fe621b4a20d0f5659605bc4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interdivision_Debit</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_ui_macro_5ca1fe621b4a20d0f5659605bc4bcb20</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-03 20:50:25</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<h>Debit</h>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</application>
+        <comments/>
+        <file_path/>
+        <instance_id>5d010e26db5384901198b16a3296195c</instance_id>
+        <instance_name>nistdev</instance_name>
+        <name>sys_ui_macro_5ca1fe621b4a20d0f5659605bc4bcb20</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description/&gt;&lt;media_type/&gt;&lt;name&gt;Interdivision_Debit&lt;/name&gt;&lt;scoped_name&gt;x_g_ni4_interdivis_Interdivision_Debit&lt;/scoped_name&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jnz1202&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-03 20:50:25&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;5ca1fe621b4a20d0f5659605bc4bcb20&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Interdivision_Debit&lt;/sys_name&gt;&lt;sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis"&gt;bd43f2a41bc6ac507562a7dcac4bcb29&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Interdivision Work Order"&gt;bd43f2a41bc6ac507562a7dcac4bcb29&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_5ca1fe621b4a20d0f5659605bc4bcb20&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jnz1202&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-03 20:50:25&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;h&gt;Debit&lt;/h&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>991727000</payload_hash>
+        <record_name>Interdivision_Debit</record_name>
+        <reverted_from/>
+        <source>3d43f2a41bc6ac507562a7dcac4bcb2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-03 20:50:25</sys_created_on>
+        <sys_id>9b523ae21b4a20d0f5659605bc4bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17769a919a90000001</sys_recorded_at>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-03 20:50:25</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>53523ae2e34a20d0f198cfe4b269e231</update_guid>
+        <update_guid_history>53523ae2e34a20d0f198cfe4b269e231:991727000</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-03 21:06:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>8079c15dee864b5c92752cac5d9b4bd9</sys_id>
+        <sys_metadata>5ca1fe621b4a20d0f5659605bc4bcb20</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interdivision_Debit</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_scope_delete display_value="">06e6a0ef4d7f477f82b4892e34ae25c9</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_5ca1fe621b4a20d0f5659605bc4bcb20</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_5ca1fe621b4a20d0f5659605bc4bcb20">9b523ae21b4a20d0f5659605bc4bcb31</sys_update_version>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-03 21:06:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

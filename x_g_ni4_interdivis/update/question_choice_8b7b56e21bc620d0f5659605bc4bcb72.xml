@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Is this a reversal of previously submitted 461?">e8fa5aa21bc620d0f5659605bc4bcb01</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-03 19:10:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8b7b56e21bc620d0f5659605bc4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Yes</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>question_choice_8b7b56e21bc620d0f5659605bc4bcb72</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-03 19:10:41</sys_updated_on>
+        <text>Yes</text>
+        <value>true</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=8b7b56e21bc620d0f5659605bc4bcb72"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>8b7b56e21bc620d0f5659605bc4bcb72</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-03 19:10:41</sys_created_on>
+        <sys_id>168b16e21bc620d0f5659605bc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-03 19:10:41</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>8b7b56e21bc620d0f5659605bc4bcb72</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-03 19:10:41</sys_created_on>
+        <sys_id>da8b16e21bc620d0f5659605bc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-03 19:10:41</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

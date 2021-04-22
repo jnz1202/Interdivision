@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name/>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[var grUsr = new GlideRecord('sys_user');
+	//grUsr.addQuery('sys_id', newCustomer);
+	grUsr.get('73fe7e7987046000c038b1916a434dd0');
+	grUsr.query();
+	if (grUsr.next()) {
+alert('line 19  grUsr.u_organizational_unit is ' +grUsr.phone);
+//alert('line 20  grUsr.u_division is ' + grUsr.u_division);	
+		//g_form.setValue('phone_ext_d',grUsr.phone);
+				
+	}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-03 15:58:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d68fed261bc220d0f5659605bc4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_script_fix_d68fed261bc220d0f5659605bc4bcbc1</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-03 15:58:46</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</application>
+        <comments/>
+        <file_path/>
+        <instance_id>5d010e26db5384901198b16a3296195c</instance_id>
+        <instance_name>nistdev</instance_name>
+        <name>sys_script_fix_d68fed261bc220d0f5659605bc4bcbc1</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;flush_cache&gt;false&lt;/flush_cache&gt;&lt;name/&gt;&lt;record_for_rollback&gt;false&lt;/record_for_rollback&gt;&lt;run_once&gt;true&lt;/run_once&gt;&lt;script&gt;&lt;![CDATA[var grUsr = new GlideRecord('sys_user');
+	//grUsr.addQuery('sys_id', newCustomer);
+	grUsr.get('73fe7e7987046000c038b1916a434dd0');
+	grUsr.query();
+	if (grUsr.next()) {
+alert('line 19  grUsr.u_organizational_unit is ' +grUsr.phone);
+//alert('line 20  grUsr.u_division is ' + grUsr.u_division);	
+		//g_form.setValue('phone_ext_d',grUsr.phone);
+				
+	}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jnz1202&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-03 15:58:46&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;d68fed261bc220d0f5659605bc4bcbc1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis"&gt;bd43f2a41bc6ac507562a7dcac4bcb29&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Interdivision Work Order"&gt;bd43f2a41bc6ac507562a7dcac4bcb29&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_d68fed261bc220d0f5659605bc4bcbc1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jnz1202&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-03 15:58:46&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>783140502</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3d43f2a41bc6ac507562a7dcac4bcb2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-03 15:58:46</sys_created_on>
+        <sys_id>8f9f21661bc220d0f5659605bc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177689e14f50000001</sys_recorded_at>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-03 15:58:46</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>879f216625c220d0b0503bb81707954b</update_guid>
+        <update_guid_history>879f216625c220d0b0503bb81707954b:783140502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-03 15:59:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>1192cef66a454540ae7d269bfac49000</sys_id>
+        <sys_metadata>d68fed261bc220d0f5659605bc4bcbc1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_scope_delete display_value="">06e6a0ef4d7f477f82b4892e34ae25c9</sys_scope_delete>
+        <sys_update_name>sys_script_fix_d68fed261bc220d0f5659605bc4bcbc1</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_d68fed261bc220d0f5659605bc4bcbc1">8f9f21661bc220d0f5659605bc4bcb4b</sys_update_version>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-03 15:59:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

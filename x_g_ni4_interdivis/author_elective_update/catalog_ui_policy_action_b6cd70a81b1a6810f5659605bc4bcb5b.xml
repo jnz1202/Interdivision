@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Interdivision Work Order(N461)">4488cd9a1b4a6c90f5659605bc4bcba3</catalog_item>
+        <catalog_variable>IO:f08809da1b4a6c90f5659605bc4bcb29</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-09 17:29:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b6cd70a81b1a6810f5659605bc4bcb5b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>authorized_amount</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b6cd70a81b1a6810f5659605bc4bcb5b</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-17 17:14:24</sys_updated_on>
+        <table/>
+        <ui_policy display_value="OnCheck estimate">339db4681b1a6810f5659605bc4bcb6b</ui_policy>
+        <variable>authorized_amount</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</application>
+        <comments/>
+        <file_path/>
+        <instance_id>5d010e26db5384901198b16a3296195c</instance_id>
+        <instance_name>nistdev</instance_name>
+        <name>catalog_ui_policy_action_b6cd70a81b1a6810f5659605bc4bcb5b</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Interdivision Work Order(N461)">4488cd9a1b4a6c90f5659605bc4bcba3</catalog_item><catalog_variable>IO:f08809da1b4a6c90f5659605bc4bcb29</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>jnz1202</sys_created_by><sys_created_on>2021-02-09 17:29:16</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b6cd70a81b1a6810f5659605bc4bcb5b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>authorized_amount</sys_name><sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope><sys_update_name>catalog_ui_policy_action_b6cd70a81b1a6810f5659605bc4bcb5b</sys_update_name><sys_updated_by>jnz1202</sys_updated_by><sys_updated_on>2021-02-17 17:14:24</sys_updated_on><table/><ui_policy display_value="OnCheck estimate">339db4681b1a6810f5659605bc4bcb6b</ui_policy><variable>authorized_amount</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1340707087</payload_hash>
+        <record_name>authorized_amount</record_name>
+        <reverted_from/>
+        <source>3d43f2a41bc6ac507562a7dcac4bcb2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-17 17:14:24</sys_created_on>
+        <sys_id>0f27ca031b166810b96a98ad9c4bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177b0fc5a0f0000001</sys_recorded_at>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-17 17:14:24</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>4327ca035e1668107788485b114d6731</update_guid>
+        <update_guid_history>4327ca035e1668107788485b114d6731:1340707087,cfdd30683b1a6810b69c4a27d921c22c:-352572589</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-17 12:19:27">995846831b166810b96a98ad9c4bcbfc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-17 17:19:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>120fe03e174b4a52896215805ed34f89</sys_id>
+        <sys_metadata>b6cd70a81b1a6810f5659605bc4bcb5b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>authorized_amount</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_scope_delete display_value="">06e6a0ef4d7f477f82b4892e34ae25c9</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_b6cd70a81b1a6810f5659605bc4bcb5b</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_b6cd70a81b1a6810f5659605bc4bcb5b">0f27ca031b166810b96a98ad9c4bcb31</sys_update_version>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-17 17:19:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

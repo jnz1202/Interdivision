@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_g_ni4_interdivis.Interdivision_help</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Interdivision_help</name>
+        <script><![CDATA[var Interdivision_help = Class.create();
+Interdivision_help.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+//gs.log("jingping");
+	getUser: function(){
+		try {
+			//gs.error("JINGPING" + this.getParameter('sysparm_name_userid'));
+			var gr = new GlideRecord('sys_user');
+			gr.addQuery('sys_id', this.getParameter('sysparm_name_userid'));
+			gr.addQuery('u_class', 1);
+			gr.query();
+
+			if(gr.next()){
+				gs.error("JINGPING" + this.getParameter('sysparm_name_userid'));
+				var result = {};
+				if (gr.name){
+					result.name = gr.getValue('name');
+				}
+
+				if (gr.u_organizational_unit){
+					result.ou = gr.getValue('u_organizational_unit');
+				} else {
+					result.ou = '';
+				}
+				if (gr.phone){
+					result.phone = gr.getValue('phone');
+					
+				} else {
+					result.phone = '';
+				}
+                if (gr.email){
+					result.email = gr.getValue('email');
+				} 
+				if (gr.u_division){
+					result.division = gr.getValue('u_division');
+				} else {
+					result.division = '';
+				}
+
+				return JSON.stringify(result);
+			}			
+		} catch(ex) {
+		  gs.error("Failed at Update Remote: " + JSON.stringify(ex));
+		}
+	},
+		
+	
+    type: 'Interdivision_help'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-03 14:14:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>35a719ee1b8eec90f5659605bc4bcb22</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Interdivision_help</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sys_script_include_35a719ee1b8eec90f5659605bc4bcb22</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-24 19:24:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

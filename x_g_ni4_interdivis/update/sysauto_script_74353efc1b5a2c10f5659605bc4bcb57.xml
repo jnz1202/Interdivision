@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>NIST Server Biling Transmit SLT File_N461</name>
+        <run_as display_value="ServiceNow Platform Access">05e79f07db6e0010ffd878f08c96197a</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>8</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2016-10-31 18:25:19</run_start>
+        <run_time>1970-01-01 07:00:01</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[//Site I followed.    http://www.john-james-andersen.com/blog/service-now/javascriptprobe-and-mid-server-script-includes.html
+
+// Code to kick off export.
+
+var gr = new GlideRecord("u_nist_server_slt_file");
+gr.addQuery("u_transmit_status", "pending");
+gr.addQuery("u_slt_file_type", "N461");
+gr.query();
+while (gr.next()) {
+	//gs.log("[LOG]NIST_Server_Billing_Transmit_SLT_File");
+	//  MidServerDEV
+	//  MidServerPRD1
+	var midServer = gs.getProperty("nist.mid.server.name");
+	var catsfsProd = "\\\\catsfs\\\\DSBS_Charges$\\\\";
+	var catsfsTest = "\\\\catsfs\\\\camsiftest$\\\\DSBS_Charges\\\\";
+	
+	var jspr = new JavascriptProbe(midServer); // Replace with your MID Server name
+	//var jspr = new JavascriptProbe('MidServerPRD'); // Replace with your MID Server name
+	//var jspr = new JavascriptProbe(gs.getProperty("nist.mid.server.name")); // Replace with your MID Server name
+	jspr.setName('NIST_Server_Billing_Transmit_SLT_File'); //name of the Mid Script include
+	jspr.setJavascript('var txt = new NIST_Server_Billing_Transmit_SLT_File(); res = txt.execute();');  // Adds a script to the probe.
+	//  The following line was the original line specifying in the directory.
+	//  Replaced with another line pointing to a non prod directory for testing.
+	if (midServer.toString().toLowerCase().indexOf('prod') > -1) {			
+		jspr.addParameter("filedirectory", catsfsProd); // specify the directory		
+	} else{
+		jspr.addParameter("filedirectory", catsfsTest); // specify the directory		
+	}
+	//jspr.addParameter("filedirectory", "\\\\catsfs\\\\DSBS_Charges$\\\\"); // specify the directory
+	//jspr.addParameter("filedirectory", "\\\\catsfs\\\\camsiftest$\\\\DSBS_Charges\\\\"); 	//Testing Only
+	jspr.addParameter("recOutputTitle", gr.u_file_name); //  for file name field from slt file
+	jspr.addParameter("recOutputText", gr.u_transmit_file); //  transmit_file text
+	jspr.create();
+	
+	gr.u_transmit_status = 'transmitted';
+	gr.u_transmit_date = gs.nowDateTime();
+	gr.update();
+	
+	//gs.logInfo("Server SLT File pushed to CBS: " + gr.u_file_name +" - "+  gr.u_number +" - "+ gr.u_billing_month);
+	gs.log("Server SLT File pushed to CBS: " + gr.u_file_name +" - "+  gr.u_number +" - "+ gr.u_billing_month);
+	gs.eventQueue("Server SLT File pushed to CBS", gr, gr.u_file_name, gr.u_number);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>pazhangy</sys_created_by>
+        <sys_created_on>2021-02-10 20:49:09</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>74353efc1b5a2c10f5659605bc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NIST Server Biling Transmit SLT File_N461</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sysauto_script_74353efc1b5a2c10f5659605bc4bcb57</sys_update_name>
+        <sys_updated_by>pazhangy</sys_updated_by>
+        <sys_updated_on>2021-02-10 20:49:09</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

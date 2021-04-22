@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_g_ni4_interdivis.Credit AO Approval</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>Credit AO Approval</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-17 13:44:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b107114f1b126810b96a98ad9c4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_g_ni4_interdivis.Credit AO Approval</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>sysevent_register_b107114f1b126810b96a98ad9c4bcb22</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-17 13:44:57</sys_updated_on>
+        <table>x_g_ni4_interdivis_interdivision_work_order</table>
+    </sysevent_register>
+</record_update>

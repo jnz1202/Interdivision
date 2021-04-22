@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Interdivision Work Order(N461)">4488cd9a1b4a6c90f5659605bc4bcba3</catalog_item>
+        <catalog_variable>IO:c3afee341b97e4d0f5659605bc4bcb2f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>pazhangy</sys_created_by>
+        <sys_created_on>2021-04-01 13:32:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6a903eb41b97e4d0f5659605bc4bcbd8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_project_task_codes</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6a903eb41b97e4d0f5659605bc4bcbd8</sys_update_name>
+        <sys_updated_by>pazhangy</sys_updated_by>
+        <sys_updated_on>2021-04-01 15:34:44</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show Project Task Codes List">ca707ab41b97e4d0f5659605bc4bcb78</ui_policy>
+        <variable>u_project_task_codes</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-10 19:21:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f53162bc1bd62c10f5659605bc4bcb56</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_g_ni4_interdivis_interdivision_work_order.admin</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_security_acl display_value="x_g_ni4_interdivis_interdivision_work_order">a7f06a7c1bd62c10f5659605bc4bcb60</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f53162bc1bd62c10f5659605bc4bcb56</sys_update_name>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:00:17</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id>7931a2f01bd62c10f5659605bc4bcb8b</transaction_id>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</application>
+        <comments/>
+        <file_path/>
+        <instance_id>5d010e26db5384901198b16a3296195c</instance_id>
+        <instance_name>nistdev</instance_name>
+        <name>sys_security_acl_role_f53162bc1bd62c10f5659605bc4bcb56</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>jnz1202</sys_created_by><sys_created_on>2021-02-10 19:21:50</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>f53162bc1bd62c10f5659605bc4bcb56</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_g_ni4_interdivis_interdivision_work_order.admin</sys_name><sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope><sys_security_acl display_value="x_g_ni4_interdivis_interdivision_work_order">a7f06a7c1bd62c10f5659605bc4bcb60</sys_security_acl><sys_update_name>sys_security_acl_role_f53162bc1bd62c10f5659605bc4bcb56</sys_update_name><sys_updated_by>jnz1202</sys_updated_by><sys_updated_on>2021-02-10 22:00:17</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id>7931a2f01bd62c10f5659605bc4bcb8b</transaction_id></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1577674698</payload_hash>
+        <record_name>x_g_ni4_interdivis_interdivision_work_order.admin</record_name>
+        <reverted_from/>
+        <source>3d43f2a41bc6ac507562a7dcac4bcb2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-10 22:00:17</sys_created_on>
+        <sys_id>b675cbb01bda2c10f5659605bc4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778df592410000001</sys_recorded_at>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:00:17</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>7e75cbb04eda2c10b83a9f6807103de2</update_guid>
+        <update_guid_history>7e75cbb04eda2c10b83a9f6807103de2:1577674698,d788223c691a2c1082d602db674ed8d4:-1172219809,a525a234eb1a2c107fa639472f678c33:1577674698,1125a234a01a2c10bbfd0a3d56acca31:-1172219809</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-02-11 09:15:06">9e9466091bdaac10f5659605bc4bcb13</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jnz1202</sys_created_by>
+        <sys_created_on>2021-02-11 14:15:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>00f564c41fb64356809e4690fab7c219</sys_id>
+        <sys_metadata>f53162bc1bd62c10f5659605bc4bcb56</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_g_ni4_interdivis_interdivision_work_order.admin</sys_name>
+        <sys_package display_value="Interdivision Work Order" source="x_g_ni4_interdivis">bd43f2a41bc6ac507562a7dcac4bcb29</sys_package>
+        <sys_parent display_value="x_g_ni4_interdivis_interdivision_work_order.*">a7f06a7c1bd62c10f5659605bc4bcb60</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Interdivision Work Order">bd43f2a41bc6ac507562a7dcac4bcb29</sys_scope>
+        <sys_scope_delete display_value="">06e6a0ef4d7f477f82b4892e34ae25c9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_f53162bc1bd62c10f5659605bc4bcb56</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_f53162bc1bd62c10f5659605bc4bcb56">b675cbb01bda2c10f5659605bc4bcbe3</sys_update_version>
+        <sys_updated_by>jnz1202</sys_updated_by>
+        <sys_updated_on>2021-02-11 14:15:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
